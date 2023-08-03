@@ -7,7 +7,7 @@ export default function Header() {
   return (
     <div className="flex items-center px-6 sticky top-0 justify-between bg-white z-10 py-8">
       <a href="/">
-       logo
+       <img className="h-12 w-32" src="https://amindset.co/img/logs.f7f5f80a.png" alt="" />
       </a>
       <nav>
         <section className="MOBILE-MENU flex lg:hidden">
@@ -40,10 +40,10 @@ export default function Header() {
             </div>
             <ul className="MENU-LINK-MOBILE-OPEN flex flex-col items-center justify-between min-h-[250px]">
               <li className=" uppercase">
-               <button className="px-4 py-2 text-white rounded-lg bg-blue-400 hover:bg-blue-500 cursor-pointer">Login</button>
+               <button className="px-4 py-2 text-white rounded-2xl bg-blue-400 hover:bg-blue-500 cursor-pointer">Login</button>
               </li>
               <li className="uppercase">
-                <button className="px-4 py-2 text-white rounded-lg bg-blue-400 hover:bg-blue-500 cursor-pointer" >Signup</button>
+                <button className="px-4 py-2 text-white rounded-2xl bg-blue-400 hover:bg-blue-500 cursor-pointer" >Signup</button>
               </li>
               
               
@@ -53,10 +53,10 @@ export default function Header() {
 
         <ul className="DESKTOP-MENU hidden space-x-8 lg:flex">
           <li>
-            <button   className="px-4 py-2 text-white rounded-lg bg-blue-400 hover:bg-blue-500 cursor-pointer">Login</button>
+            <button   className="px-8 py-4 text-white rounded-2xl bg-blue-400 hover:bg-blue-500 cursor-pointer">Login</button>
           </li>
           <li>
-            <button  className="px-4 py-2 text-white rounded-lg bg-blue-400 hover:bg-blue-500 cursor-pointer">Signup</button>
+            <button  className="px-8 py-4 text-white rounded-2xl bg-blue-400 hover:bg-blue-500 cursor-pointer">Signup</button>
           </li>
          
         </ul>

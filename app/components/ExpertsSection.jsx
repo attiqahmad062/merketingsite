@@ -23,7 +23,7 @@ const ExpertsSection = () => {
       ];
   return (
     <>
-    <div className='flex fled-col md:flex-row flex-wrap gap-12 p-3 md:p-10'>
+    <div className='flex flex-col md:flex-row flex-wrap gap-12 p-3 md:p-10'>
         <div className=' md:w-[200px]'>
        <p className='text-xl font-semibold'>Meet Out Experts</p>
        <p className='text-md text-gray-600'>The most dedicated healthcare providers in the US ready to meet your needs</p>
